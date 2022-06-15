@@ -60,7 +60,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "120",
+        "repeat": "600",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -172,10 +172,10 @@
         "type": "mqtt in",
         "z": "f04b55fd8b31d7f3",
         "name": "",
-        "topic": "codigoIoT/G8/mosquitto/flow5",
+        "topic": "codigoIoT/g9/mosquitto/flow5",
         "qos": "2",
         "datatype": "auto",
-        "broker": "c7a9200571c85424",
+        "broker": "b19cfbfb792f6aa6",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -244,7 +244,7 @@
         "ymax": "55",
         "removeOlder": "1",
         "removeOlderPoints": "",
-        "removeOlderUnit": "86400",
+        "removeOlderUnit": "604800",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -307,7 +307,7 @@
         "ymax": "100",
         "removeOlder": "1",
         "removeOlderPoints": "",
-        "removeOlderUnit": "86400",
+        "removeOlderUnit": "604800",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -353,7 +353,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 130,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "0af1ad7a1a079456"
@@ -401,7 +401,7 @@
         "type": "mqtt out",
         "z": "f04b55fd8b31d7f3",
         "name": "",
-        "topic": "codigoIoT/G8/mosquitto/flow5",
+        "topic": "codigoIoT/g9/mosquitto/flow5",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -409,8 +409,8 @@
         "userProps": "",
         "correl": "",
         "expiry": "",
-        "broker": "c7a9200571c85424",
-        "x": 670,
+        "broker": "b19cfbfb792f6aa6",
+        "x": 660,
         "y": 500,
         "wires": []
     },
@@ -466,10 +466,10 @@
         "className": ""
     },
     {
-        "id": "c7a9200571c85424",
+        "id": "b19cfbfb792f6aa6",
         "type": "mqtt-broker",
-        "name": "Broker G8",
-        "broker": "18.156.8.172",
+        "name": "Broker G9",
+        "broker": "3.123.49.252",
         "port": "1883",
         "clientid": "",
         "autoConnect": true,
